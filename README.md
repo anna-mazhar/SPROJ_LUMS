@@ -2,7 +2,9 @@
 
 #### Data
 
-- reports/ include individual CSV files for ~1000 Alexa Popular webpages which summarizes all the requests made for images (image names), their transfer, actual and optimized sizes.
+- reports/ include individual CSV files for ~1000 Alexa Popular webpages which summarize all the requests made for images (image names), their transfer, actual and optimized sizes.
+- figures/ include graphs that visualize the data
+- 1000_page_size_trends.csv summarizes the variation in page sizes for all the webpages
 - Images for Alexa-1000 webpages and their optimized versions can be made available upon request (Total size exceeds 5GB).
 
 
