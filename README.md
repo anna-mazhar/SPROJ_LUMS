@@ -2,7 +2,7 @@
 
 #### Code and Data
 
-- code/ includes code for: 
+- src/ includes code for: 
   - Scraping images from a mobile version of a webpage and optimizing them
   - Collecting failed audits for popular webpages with Ligthouse
 - reports/ include CSV files for ~1000 Alexa Popular webpages which summarize all the requests made for images (image names), their transfer, actual and optimized sizes.
