@@ -1,6 +1,6 @@
 # Downloading Images
 
-We use Puppeteer to simulate a mobile device page load, download requested resources (we require only images so we filter images in this case) and perform automate scrolling to download lazy loaded resources as well.
+We use Puppeteer to simulate a mobile device page load, download requested resources (we require only images in this case so we filter out images) and perform automated scrolling to download the lazy loaded resources as well.
 
 After cloning the repository:
 
@@ -10,7 +10,7 @@ After cloning the repository:
 npm install
 ```
 
-- To run the scraper:
+- Run the scraper:
 
 ```sh
 node downloadImages.js https://www.amazon.com
@@ -32,7 +32,7 @@ node downloadImages.js https://www.naver.com
 node downloadImages.js https://www.alibaba.com
 ```
 ```sh
-node downloadImages.js https://www.guardian.com
+node downloadImages.js https://www.nytimes.com
 ```
 <br>
 
