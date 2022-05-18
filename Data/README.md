@@ -1,10 +1,7 @@
 # SPROJ_LUMS
 
-#### Code and Data
+#### Data
 
-- code/ includes code for: 
-- - Scraping images from a mobile version of a webpage 
-- - Collecting failed audits for popular webpages with Ligthouse
 - reports/ include CSV files for ~1000 Alexa Popular webpages which summarize all the requests made for images (image names), their transfer, actual and optimized sizes.
 - figures/ include graphs that visualize the data.
 - 1000_page_size_trends.csv summarizes the variation in page sizes for all the webpages.
