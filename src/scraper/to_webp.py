@@ -19,6 +19,9 @@ def transcode_img(quality):
     else:
         os.mkdir('images/'  + quality)
 
+    if not (isdir('images/gifs')):
+        os.mkdir('images/gifs')
+
     logs = []
     for i in img_paths:
 
@@ -49,9 +52,14 @@ def transcode_img(quality):
         if len(val) == 2:  # when successful, short output is always in the form of '%d %f\n'
             logs.append([i, val[0], without_query])
 
+        else:
+            output = sp.getoutput('gif2webp "images/' + i + '" -o "images/gifs/' + x + '" -lossy -q ' + quality )
+            # val = output.split()
+
             if 'Saved output' in output:
                 size = output.split('Saved output file ')[1].split()[0][1:]
                 logs.append([i, size, without_query])
+
 
 
         count += 1
